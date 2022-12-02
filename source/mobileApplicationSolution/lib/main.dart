@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 
+import 'di/location.dart';
+
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
+  configureDependencies();
   runApp(const MyApp());
 }
 
