@@ -1,3 +1,4 @@
+import 'package:dooking/presentation/utils/Background.dart';
 import 'package:flutter/material.dart';
 
 class WelcomeScreen extends StatelessWidget {
@@ -5,9 +6,9 @@ class WelcomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Container(
-        color: Colors.red,
+    return BackgroundScaffold(
+      child: Container(
+        color: Colors.amber,
       ),
     );
   }

@@ -1,6 +1,7 @@
 import 'dart:ui';
 
 import 'package:dooking/res/constants.dart';
+import 'package:dooking/res/images.dart';
 import 'package:flutter/material.dart';
 
 class BackgroundScaffold extends StatelessWidget {
@@ -17,7 +18,7 @@ class BackgroundScaffold extends StatelessWidget {
         padding: const EdgeInsets.symmetric(horizontal: 40),
         decoration: const BoxDecoration(
           image: DecorationImage(
-            image: AssetImage("assets/back.jpg"),
+            image: AssetImage(MainBackgroundImage),
             fit: BoxFit.cover,
           ),
         ),

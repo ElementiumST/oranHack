@@ -1,1 +1,1 @@
-const MainBackgroundImage = "assets/MainBackground.svg";
+const MainBackgroundImage = "assets/MainBackground.jpg";
