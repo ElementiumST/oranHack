@@ -5,6 +5,7 @@
 // **************************************************************************
 
 // ignore_for_file: no_leading_underscores_for_library_prefixes
+import 'package:dooking/domain/registration/parent_person_builder.dart' as _i4;
 import 'package:dooking/domain/store/core_app.dart' as _i3;
 import 'package:get_it/get_it.dart' as _i1;
 import 'package:injectable/injectable.dart' as _i2;
@@ -23,6 +24,7 @@ extension GetItInjectableX on _i1.GetIt {
       environmentFilter,
     );
     gh.singleton<_i3.CoreApp>(_i3.CoreApp());
+    gh.factory<_i4.ParentPersonBuilder>(() => _i4.ParentPersonBuilder());
     return this;
   }
 }
