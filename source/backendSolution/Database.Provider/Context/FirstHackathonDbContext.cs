@@ -14,6 +14,8 @@ namespace Database.Provider.Context
                 LoadTestData();
         }
 
+        public DbSet<Person> Persons { get; set; }
+
         private void LoadTestData()
         {
             
