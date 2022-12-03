@@ -1,13 +1,13 @@
-﻿using Data.Models;
-using System;
+﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Database.Provider.Models
 {
-    public class ParentStatus : IParentStatus
+    public class ParentStatus
     {
         /// <summary>
         /// Идентифаикатор статуса родителя
@@ -18,5 +18,7 @@ namespace Database.Provider.Models
         /// Наименование статуса родителя
         /// </summary>
         public string Name { get; set; }
+
+        public List<Person> Parents { get; set; }
     }
 }

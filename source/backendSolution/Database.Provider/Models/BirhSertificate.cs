@@ -1,5 +1,4 @@
-﻿using Data.Models;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Database.Provider.Models
 {
-    public class BirhSertificate : IBirthSertificate
+    public class BirhSertificate
     {
         /// <summary>
         /// 
@@ -34,9 +33,6 @@ namespace Database.Provider.Models
         /// </summary>
         public string IssueName { get; set;  }
 
-        /// <summary>
-        /// 
-        /// </summary>
-        public bool IsRussianPasport { get; set; }
+        public Person Child { get; set; }
     }
 }

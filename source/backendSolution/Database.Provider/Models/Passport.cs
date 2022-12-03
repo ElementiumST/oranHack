@@ -1,15 +1,17 @@
-﻿using Data.Models;
-using System;
+﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Database.Provider.Models
 {
-    public class Passport : IPassport
+    public class Passport
     {
         public Guid Id { get; set; }
+
+        public Person Person { get; set; }
 
         public int Series { get; set; }
 

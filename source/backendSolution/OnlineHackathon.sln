@@ -1,17 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31911.196
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineHackathon", "OnlineHackathon\OnlineHackathon.csproj", "{E43AF9C6-CCF2-4546-8F3D-8C9108FCDAB9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineHackathon", "OnlineHackathon\OnlineHackathon.csproj", "{E43AF9C6-CCF2-4546-8F3D-8C9108FCDAB9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1318D424-65C5-4991-952F-46841D4371EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database.Provider", "Database.Provider\Database.Provider.csproj", "{852E93AF-F525-4764-A9E4-B8CC70411E40}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Database.Provider", "Database.Provider\Database.Provider.csproj", "{852E93AF-F525-4764-A9E4-B8CC70411E40}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinesLogic", "BusinesLogic\BusinesLogic.csproj", "{26F2503E-3B2F-4A9A-A987-0EB5C11331A4}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{C74BCCA5-967C-4C02-B91D-CDA549A43A47}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinesLogic", "BusinesLogic\BusinesLogic.csproj", "{26F2503E-3B2F-4A9A-A987-0EB5C11331A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,10 +29,6 @@ Global
 		{26F2503E-3B2F-4A9A-A987-0EB5C11331A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26F2503E-3B2F-4A9A-A987-0EB5C11331A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26F2503E-3B2F-4A9A-A987-0EB5C11331A4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C74BCCA5-967C-4C02-B91D-CDA549A43A47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C74BCCA5-967C-4C02-B91D-CDA549A43A47}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C74BCCA5-967C-4C02-B91D-CDA549A43A47}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C74BCCA5-967C-4C02-B91D-CDA549A43A47}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -43,7 +37,6 @@ Global
 		{E43AF9C6-CCF2-4546-8F3D-8C9108FCDAB9} = {1318D424-65C5-4991-952F-46841D4371EE}
 		{852E93AF-F525-4764-A9E4-B8CC70411E40} = {1318D424-65C5-4991-952F-46841D4371EE}
 		{26F2503E-3B2F-4A9A-A987-0EB5C11331A4} = {1318D424-65C5-4991-952F-46841D4371EE}
-		{C74BCCA5-967C-4C02-B91D-CDA549A43A47} = {1318D424-65C5-4991-952F-46841D4371EE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {13E28969-A96B-41A8-8769-659CAA3FBCF9}
