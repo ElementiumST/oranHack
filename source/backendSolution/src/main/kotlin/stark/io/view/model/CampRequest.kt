@@ -4,7 +4,7 @@ import kotlinx.serialization.Serializable
 
 @Serializable
 data class CampRequest(
-    val id: Int?,
+    val id: Int? = -1,
     val name: String,
     val description: String,
     val season: Int,

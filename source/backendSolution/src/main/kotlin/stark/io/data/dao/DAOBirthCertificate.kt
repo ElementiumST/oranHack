@@ -8,8 +8,8 @@ interface DAOBirthCertificate {
 
     suspend fun addBirthCertificate(
         isRussian: Boolean,
-        series: Int,
-        number: Int,
+        series: String,
+        number: String,
         dateOfGetting: String,
         issueName: String,
     ): BirthCertificateEntity?
@@ -17,8 +17,8 @@ interface DAOBirthCertificate {
     suspend fun editBirthCertificate(
         id: Int,
         isRussian: Boolean,
-        series: Int,
-        number: Int,
+        series: String,
+        number: String,
         dateOfGetting: String,
         issueName: String,
     ): Boolean

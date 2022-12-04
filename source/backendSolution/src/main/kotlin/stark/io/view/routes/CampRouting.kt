@@ -1,6 +1,7 @@
 package stark.io.view.routes
 
 import com.auth0.jwt.JWT
+import io.ktor.http.*
 import io.ktor.server.application.*
 import io.ktor.server.auth.*
 import io.ktor.server.request.*
@@ -55,6 +56,7 @@ fun Route.campRouting() {
                 val camp = call.receive<CampRequest>()
                 val userId = call.getUserId()
                 CampRepos.addCamp(camp, userId)
+                call.respond(HttpStatusCode.OK)
             }.onFailure {
                 call.application.environment.log.info(it.stackTraceToString())
             }
@@ -66,6 +68,7 @@ fun Route.campRouting() {
                 val camp = call.receive<CampRequest>()
                 val userId = call.getUserId()
                 CampRepos.updateCamp(camp, userId)
+                call.respond(HttpStatusCode.OK)
             }.onFailure {
                 call.application.environment.log.info(it.stackTraceToString())
             }

@@ -4,7 +4,7 @@ import kotlinx.serialization.Serializable
 
 @Serializable
 data class ChildRequest(
-    val id: Int? = 0,
+    val id: Int? = -1,
     val firstName: String,
     val secondName: String,
     val lastName: String,

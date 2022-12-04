@@ -117,7 +117,7 @@ class DAOCampImpl : DAOCamp {
             it[CampTable.dayOfStart] = dayOfStart
             it[CampTable.dayOfEnd] = dayOfEnd
             it[CampTable.ownerId] = ownerId
-            it[CampTable.status] = CampTable.status
+            it[CampTable.status] = status
         } > 0
     }
 }

@@ -15,7 +15,7 @@ data class CampEntity(
     val dayOfStart: String,
     val dayOfEnd: String,
     val ownerId: Int,
-    val status: Int
+    val status: Int,
 ) {
     companion object {
         const val WINTER = 0

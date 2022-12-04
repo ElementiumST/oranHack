@@ -28,8 +28,8 @@ class DAOBirthCertificateImpl : DAOBirthCertificate {
 
     override suspend fun addBirthCertificate(
         isRussian: Boolean,
-        series: Int,
-        number: Int,
+        series: String,
+        number: String,
         dateOfGetting: String,
         issueName: String
     ): BirthCertificateEntity? = DatabaseFactory.dbQuery {
@@ -46,8 +46,8 @@ class DAOBirthCertificateImpl : DAOBirthCertificate {
     override suspend fun editBirthCertificate(
         id: Int,
         isRussian: Boolean,
-        series: Int,
-        number: Int,
+        series: String,
+        number: String,
         dateOfGetting: String,
         issueName: String
     ): Boolean = DatabaseFactory.dbQuery{
