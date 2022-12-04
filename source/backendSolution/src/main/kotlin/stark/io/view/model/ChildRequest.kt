@@ -15,5 +15,5 @@ data class ChildRequest(
     val address: String,
     val snils: String,
     val phoneNumber: String,
-    var parentId: Int?
+    var parentId: Int? = -1
 )
