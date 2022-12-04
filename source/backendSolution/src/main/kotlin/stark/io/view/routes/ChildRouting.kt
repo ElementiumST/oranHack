@@ -16,8 +16,11 @@ fun Route.childRouting() {
     authenticate(AuthJWT) {
         put {
             runCatching {
-                val childId = call.getParentId()
-                call.respond(ChildIdResponse(childId))
+                val child = call.receive<ChildRequest>()
+                val parentId = call.getParentId()
+                child.parentId = parentId
+                val response = ChildRepos.addChild(child)
+                call.respond(ChildIdResponse(response))
             }.onFailure {
                 call.application.environment.log.info(it.stackTraceToString())
             }
