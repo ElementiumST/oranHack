@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e24e67c-9f68-4216-8d5f-084c2073e4dd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/source/backendSolution/global.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/backendSolution/BusinesLogic/BusinesLogic.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/source/backendSolution/BusinesLogic/BusinesLogic.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/backendSolution/Data/Data.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/source/backendSolution/Data/Data.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/backendSolution/Database.Provider/Database.Provider.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/source/backendSolution/Database.Provider/Database.Provider.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/backendSolution/OnlineHackathon/Bindings/AuthenticationBinding.cs" beforeDir="false" afterPath="$PROJECT_DIR$/source/backendSolution/OnlineHackathon/Bindings/AuthenticationBinding.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/backendSolution/OnlineHackathon/Controllers/AuthController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/source/backendSolution/OnlineHackathon/Controllers/AuthController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/backendSolution/OnlineHackathon/Extensions/JwtAccessTokenFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/source/backendSolution/OnlineHackathon/Extensions/JwtAccessTokenFactory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/backendSolution/OnlineHackathon/OnlineHackathon.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/source/backendSolution/OnlineHackathon/OnlineHackathon.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/backendSolution/OnlineHackathon/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/source/backendSolution/OnlineHackathon/Startup.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,14 +35,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;G:/oranhack&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "G:/oranhack/source/backendSolution",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\oranhack\images" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="oranhack" />
@@ -73,6 +80,9 @@
       <workItem from="1670082394957" duration="47000" />
       <workItem from="1670082901310" duration="1000" />
       <workItem from="1670090396222" duration="255000" />
+      <workItem from="1670158134760" duration="123000" />
+      <workItem from="1670158274704" duration="359000" />
+      <workItem from="1670158675866" duration="632000" />
     </task>
     <servers />
   </component>
